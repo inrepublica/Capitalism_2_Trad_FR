@@ -16,13 +16,13 @@
 
 [MESSAGE]Tout d'abord vous devez obtenir un prêt de la banque. Localisez la banque sur la carte ou cliquez sur l'icone information dans la barre d'outil et choisissez action financière.
 [IMAGE]~
-[ACTION] !!wait attendre la fenêtre des actions financières. Réglez la limite de crédit à $2,500,000.
+[ACTION] !!wait for the financial actions screen to open. Set credit limit at $2,500,000
 [WINDOW]32,300,130,200
 [HINT]183,567,215,592
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]This is the Financial Actions section of the Information Center. This is where you come to apply for a loan. Your credit limit will vary throughout the game depending on the state of your corporation. At this moment the maximum you may borrow is $10,000,000. Click the "+" button next to the "Borrow" button to change the amount. A left click gives a small increase while a right click produces a larger increase. When you have reached the credit limit ($10,000,000) click the "Borrow" button and the funds will be immediately transferred into your corporate account.
+[MESSAGE]Ceci est la section Financière du centre d'information. C'est ici que vous allez contracter un prêt. Votre limite de crédit varie selon l'état de votre caompagnie. En ce moment, vous pouvez emprunter $10,000,000. Cliquez sur "+" du menu Emprunter pour contracter le prêt. Un clic gauche donne un petit montant, un clic droit un montant plus large. Lorsque vous avez atteint $10,000,000 cliquez sur le boutton "Emprunter" et les fonds vous sont transférés.
 [IMAGE]~
 [ACTION]!Click BORROW button
 [WINDOW]32,200,180,320
@@ -30,7 +30,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Good, you now have the funds to continue. And as you are in the Information Center, let's take a look at the sort of products that corn can be found in. For this we need to look at the Manufacturer's Guide. Select it from the left hand menu now.
+[MESSAGE]Bien, maintenant que nous avons les fonds, continuons. Jetons un oeil sur les produits possible à base de maïs. Pour ça, regardons le guide du fabriquant. Sélectionnez le depuis le menu à gauche.
 [IMAGE]~
 [ACTION]!!open the Manuf Guide with corn NOT shown. Instead, open with Sugar and Flour producing Cookies
 [WINDOW]32,270,130,210
@@ -38,7 +38,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]This is the Manufacturer's Guide. It's a great source of information about all the products available in the game. We need to find out about "Corn", so click the "INPUT" button at the lower right of the screen.
+[MESSAGE]Ceci est le guide du fabriquant. C'est une source d'information précieuse sur les produits à fabriquer. Trouvez "Maïs" dans "INPUT" en bas à droite.
 [IMAGE]~
 [ACTION]!!wait for the INPUT to be selected.
 [WINDOW]32,270,130,250
@@ -46,7 +46,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Now look for "Corn" in the list. Select it and click "OK".
+[MESSAGE]Maintenant regardez "Maïs" dans la liste. Sélectionez-le et cliquez sur "OK".
 [IMAGE]~
 [ACTION]!!wait until Corn is selected
 [WINDOW]32,270,130,250,5
@@ -54,7 +54,7 @@
 [CHECK]~
 [ERROR]You must select "Corn" from the list. Please try again.
 
-[MESSAGE]The guide updates to reflect your choice. If you take Corn you can manufacture Canned Corn. Fairly evident eh? Take a close look at the Corn. Notice that 1 lb of Corn is needed to make 2 units (or cans) of the Canned Corn. Also notice that the Corn has a quality influence of 60%. This means that the overall product is 60% affected by the quality of the Corn.  
+[MESSAGE]Le guide reflête votre choix. Si vous prenez du Maïs vous pouvez fabriquer du Maïs en conserve. Evident non? Regardez attentivement le maïs. Noté que 1 lb de maïs est nécessaire pour fabriquer 2 boites de maïs en conserve. Noté également que la qualité est influencé à 60% par le maïs. Cela signifie que le mais en conserve dépend à 60% de la qualité du maïs.  
 [IMAGE]~
 [ACTION]~
 [WINDOW]32,250,200,250
@@ -62,7 +62,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]The quality of the Canned Corn is determined by two factors: Production Technology and Raw Material Quality. The raw materials, as just stated, represent 60% of the Canned Corn quality. The remaining 40% is determined by the production technology of the manufacturer. We will discuss production technology later.
+[MESSAGE]La qualité dépend deux facteurs: la technologie de production et la qualité des matières première. Ici la qualité des matières première représente 60% et la technologie de production 40%.
 [IMAGE]~
 [ACTION]~
 [WINDOW]32,250,200,250
@@ -70,7 +70,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]For now, let's explore more Corn based products. Click the "MORE" button below the image of the corn.
+[MESSAGE]Pour l'instant regardons ce que nous pouvons produire de plus avec le maïs. Cliquez sur "MORE" sous l'image du Maïs.
 [IMAGE]~
 [ACTION]!!wait for the MORE button to be clicked
 [WINDOW]32,270,130,80
@@ -78,7 +78,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]The display is updated to show that Corn may also be combined with Sugar to produce Corn Flakes. Notice now that although the quality of Corn Flakes is still 60% influenced by the raw materials, the Corn now contributes only 50%, while the Sugar contributes 10%. 
+[MESSAGE]L'écran laisse apparaitre une autre combinaison avec du Maïs. Combiné avec du sucre vous pouvez produire des Corn Flakes. Notez que pour les Corn Flakes, seulement 50% de la qualité dépend du Maïs et 10% pour le sucre. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]32,250,130,270
@@ -86,7 +86,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Click "MORE" once again.
+[MESSAGE]Cliquez sur "MORE" encore une fois.
 [IMAGE]~
 [ACTION] !!wait for MORE to be clicked
 [WINDOW]32,440,130,80
@@ -94,7 +94,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Corn can also be used to manufacture Corn Syrup, which is classified as a Semi Product. To see what product Corn Syrup can be used to produce, click on the picture of Corn Syrup now. 
+[MESSAGE]Le Maïs est aussi utilisé pour produire du sirop de Maïs classifié comme produit intermédiaire. Pour regardez comment utiliser le sirop de Maïs, cliquez sur l'image du sirop de maïs. 
 [IMAGE]~
 [ACTION]!!wait for corn syrup image to be clicked
 [WINDOW]32,270,130,250
@@ -102,7 +102,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Combined with Sugar, Corn Syrup is used in the manufacture of Chewing Gum. Notice that the MORE button is shaded for the Corn Syrup, indicating that it is only used in chewing gum. Take a quick look at the Production Technology and Raw Material Quality figures. The overall quality of chewing gum is only 25% affected by the quality of the raw materials. This means that you could therefore use fairly low quality raw materials, which tend to be cheaper, to produce gum comparable in quality to a competitor using high quality materials. 
+[MESSAGE]Combiné avec du sucre, le sirop de maïs est utilisé pour fabriquer du Chewing Gum. Notez que le boutton "MORE" est grisé pour le sirop de maïs. Ceci vous indique qu'il est utilisé uniquement pour le Chewing Gum. Notez que seulement 25% du Chewing Gum est dépendant de la qualité des matières première. Il vaut donc mieux investir sur la technologie de production. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]32,100,130,420
@@ -110,7 +110,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Before we leave the Manufacturer's Guide, here's a quick note; If you want to see if a product can be used as a raw material click the "INPUT" button and select it from the list. Similarly, if you wish to see what raw materials are required to manufacture a product, click the "OUTPUT" button and select it from the list. Click "OUTPUT" now.
+[MESSAGE]Avant de quitter le guide du fabriquant encore un petit mot ou deux. Si vous voulez savoir si un produit est utilisable pour en fabriquer un autre, cliquez sur "INPUT" et recherchez le. A l'inverse pour savoir comment fabriquer un produit recherchez le avec "OUTPUT". Cliquez sur "OUTPUT".
 [IMAGE]~
 [ACTION]!!wait for OUTPUT click
 [WINDOW]32,270,130,250
@@ -118,7 +118,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Now select Bread from the list and click "OK".
+[MESSAGE]Maintenant sélectionnez Pain dans la liste.
 [IMAGE]~
 [ACTION]!!wait for bread select and OK
 [WINDOW]32,270,130,250,5
@@ -126,7 +126,7 @@
 [CHECK]~
 [ERROR]You must select Bread from the list. Please try again.
 
-[MESSAGE]Bread is made from flour (but you knew that right?). So now that you know how to discover what materials are required to manufacture a product, it's time to actually manufacture something!
+[MESSAGE]Le pain est fait à partir de farinne. Etonnant non? Bon maintenant que vous connaissez quels produits sont nécessaires, il est temps de passer à la fabrication.
 [IMAGE]~
 [ACTION]~
 [WINDOW]32,270,130,190
@@ -134,7 +134,7 @@
 [CHECK]~
 [ERROR]~  
 
-[MESSAGE]Right click anywhere on the screen to return to the city view.
+[MESSAGE]Clic Droit pour retourner sur la carte.
 [IMAGE]~
 [ACTION]!!wait for city view
 [WINDOW]32,270,130,50
@@ -142,15 +142,13 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Now you must find a location to build a factory. Try to build on open land as it's cheaper, keeping in mind that you are working on borrowed money that must be repaid! Open the Building types menu from the Game Tools Menu and select Factory. You'll only be able to build a small factory at this time. 
-[IMAGE]~
-[ACTION]!!Only make Small factory available. Wait until factory built and layout screen open.
+[MESSAGE]Maintenant trouvez un emplacement pour votre usine. Essayer un emplacement libre c'est meilleur marché. Ouvrez le menu Type de construction du menu Outil et sélectionnez petite usine.
 [WINDOW]432,12,300,135
 [HINT]57,558,73,600
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]In order for your factory to manufacture and sell goods it requires three unit types to be linked within the layout grid. You already know about Purchasing and Sales units. The third type that you require is the Manufacturing Unit. Let's get your factory producing something. Double click the top left hand unit space in the layout grid and build a purchasing unit. To the right of that build a manufacturing unit and to the right of that a sales unit. Don't forget to click the link between the units!
+[MESSAGE]Pour commencer il vous faut trois types d'unités reliées entre elles. Vous connaissez les unités Achat et Ventes. La troisième est l'unité de fabrication. Double cliquez en haut à gauche pour construire une unité d'achat. A droite construisez une unité fabrication et encore à droite une unité de vente. N'oubliez pas de les relier entre elles!
 [IMAGE]~
 [ACTION]!!adjust game speed from pause to 1,  !!wait until all three units have been built
 [WINDOW]32,12,300,180
@@ -158,7 +156,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Great! Now you need to purchase your raw materials. Click the purchasing unit and click the "Link" button to advance to the Select a Supplier screen. 
+[MESSAGE]Bien! maintenant vous avez besoin de vous approvisionner en matière première. Cliquez sur l'unité d'achat, puis sur "LINK" pour faire apparaitre l'écran d'approvisionnement. 
 [IMAGE]~
 [ACTION]!!wait until Select a Supplier is open
 [WINDOW]32,12,300,50
@@ -166,7 +164,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Now use the Product filter to select "Corn". The display will show that a local seaport is currently importing corn. Select the supplier and your purchase unit will begin to buy the raw material.
+[MESSAGE]Maintenant utilisez le filtre de produit pour sélectionner "Maïs". L'écran vous montre qu'un port importe actuellement du Maïs. Sélectionnez le fournisseur et votre unité d'achat commence son travail.
 [IMAGE]~
 [ACTION]!!Link Corn
 [WINDOW]32,370,150,150
@@ -174,7 +172,7 @@
 [CHECK]~
 [ERROR]You must select a supplier supplying Corn from the list. Please try again.
 
-[MESSAGE]Notice that your manufacturing unit begins immediately to manufacture Canned Corn. After a short time the manufacturing unit sends completed stock to the sales unit and your canned corn is available for sale to the world. 
+[MESSAGE]Notez que votre unité de fabrication commence tout de suite son travail, et qu'une fois achevé le maïs est envoyé à l'unité de vente.
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,140
@@ -183,7 +181,7 @@
 [ERROR]~
 
 
-[MESSAGE]There's a lot of unused space in your factory - six empty units to be exact - so let's occupy a few more. In the row of empty units immediately below your existing units add another purchasing unit, manufacturing unit, and sales unit from left to right. Remember to link the three new units as well. 
+[MESSAGE]Il reste 6 cases inutilisées dans votre usine. Dans une case vide, ajoutez une unité d'achat , une unité de fabrication et une unité de vente. N'oubliez pas de les relier entre elles. 
 [IMAGE]~
 [ACTION]!!wait until the second set of units has been built
 [WINDOW]432,12,300,140
@@ -192,7 +190,7 @@
 [ERROR]~
 
 
-[MESSAGE]Now click the new purchasing unit and then click the "Link" button to open the supplier list. Select "Sugar" from the supplier list. 
+[MESSAGE]Maintenant cliquez sur l'unité d'achat puis le boutton "LINK". Sélectionnez "Sucre" comme produit. 
 [IMAGE]~
 [ACTION]!!wait for the production choice menu
 [WINDOW]32,420,150,100
@@ -200,7 +198,7 @@
 [CHECK]~
 [ERROR]You must select a supplier supplying "Sugar". Please try again. 
 
-[MESSAGE]Now link the very first purchasing unit to the new manufacturing unit.
+[MESSAGE]Maintenant reliez l'unité de fabrication à votre première unité d'achat.
 [IMAGE]~
 [ACTION] !!wait for production to be set to Corn SYRUP
 [WINDOW]32,12,300,50
@@ -208,7 +206,7 @@
 [CHECK]~
 [ERROR]You didn't link correctly. Please try again. 
 
-[MESSAGE]This manufacturing unit will now produce Corn Flakes. See how we utilized an existing purchasing unit supplying corn, and in conjunction with a new unit purchasing sugar, to manufacture a different product. 
+[MESSAGE]L'unité de fabrication produit désormais du Corn Flakes. Notez bien comment combiner les unités d'achat pour fabriquer un produit différent. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,100
@@ -216,7 +214,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Now let's have a closer look at the manufacturing unit itself. Highlight your Canned Corn manufacturing unit by clicking on it. In the unit detail section to the left of the layout you will see information regarding the quality of the Canned Corn that you are producing. 
+[MESSAGE]Maintenant étudions l'unité de fabrication. Mettez en surbrillance l'unité de fabrication en cliquant dessus. Dans le détail de l'unité vous pouvez remarquer la qualité de vos produits. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,100
@@ -224,7 +222,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Your canned corn has an overall quality of 57 out of 100. This is calculated by assessing the influence of several factors. Remember when you looked at the Manufacturer's Guide and discovered that the overall quality of canned corn was 60% affected by the quality of the raw material and 40% affected by the production technology? Look at the other figures quoted. 
+[MESSAGE]Votre maïs en conserve possède une qualité totale de 57 sur 100. Elle tient compte de plusieurs paramètres. Rappelez vous dans le guide de fabrication, la qualité du maïs en conserve est affecté à 60% par les matières première, et 40% par la technologie de production. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,200
@@ -232,7 +230,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]The Production Quality has a figure of 12/40. The 40 is the 40% just mentioned. This figure is derived from multiplying the current Production Technology of the factory, which is 30, by the percentage concern, which is 40, and then dividing the total by 100 to give 12. 
+[MESSAGE]La technologie de production est de 12/40 correspondant au 40%. Le calcul est simple. Une technologie de production de 30 multiplié par le pourcentage de 40/100 nous donne 12. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,200
@@ -240,7 +238,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]A similar calculation is used to determine the Raw Material Quality. From the unit detail section you can see that the raw material quality is 45. This figure is arrived at by multiplying the actual quality of the raw material(s) used by the percentage concern and then dividing the result by 100. Click your corn purchasing unit and look at the unit detail section. 
+[MESSAGE]Un calcul similaire est utilisé pour la qualité des matières première. Ici, le résultat est de 45. Il correspond à la qualité de la matière première multiplié par 60/100. Cliquez sur l'unité d'achat de Maïs, et regardez le détail. 
 [IMAGE]~
 [ACTION] !!wait for corn purchase unit to be selected
 [WINDOW]432,12,300,200
@@ -248,7 +246,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]The quality of the corn is 75. So the raw material quality calculation is (75 x 60)/100 = 45. Added to the production quality value of 12 it gives an overall product of 57 (out of a maximum of 100). 
+[MESSAGE] La qualité du maïs est de 75. Le calcul est donc 75 x 60/100 = 45. Ajoutez au 12 de technoligie de production cela nous donne une qualité totale de 57 sur 100. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,200
@@ -256,7 +254,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Don't worry too much at this stage if that was all a bit confusing - the manual has a lot more information regarding manufacturing if you would like to take a look sometime. But for now you need to concentrate on producing and selling. 
+[MESSAGE]Pour plus d'information sur la fabrication, le manuel est d'une aide précieuse. Mais maintenant concentrons nous sur la fabrication et la vente. 
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,200
@@ -264,7 +262,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]Now that your factory has been in operation for some time, other corporations should now be purchasing your products for sale in their shops. You must now balance your finances. Try to set up more factories producing other products, or build retail stores to sell your own goods. But remember that you still owe the bank money. You can repay all or part of your loan by accessing the Financial Actions screen of the Information Center and using the REPAY section of the screen.
+[MESSAGE]Maintenant votre usine est opérationnelle, d'autres compagnies peuvent acheter vos produits. Vous devez maintenant rentabiliser votre production. Construisez d'autres usines ou des magasins pour vendre vos produits. Vous pouvez remboursser votre prêt à tout moment dans les actions financières à l'aide du bouton "REPAY".
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,200
@@ -272,7 +270,7 @@
 [CHECK]~
 [ERROR]~
 
-[MESSAGE]To complete your objectives in this game, you need achieve an annual revenue of $90 million and an annual profit of $40 million . Good Luck!
+[MESSAGE]Pour compléter vos objectifs, il vous faut un revenu de $90,000,000 et $40,000,000 de profit. Bonne chance!
 [IMAGE]~
 [ACTION]~
 [WINDOW]432,12,300,200
